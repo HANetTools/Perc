@@ -5,7 +5,8 @@ Title: Using Percolation and Conductance to Find Information Flow Certainty in a
 Version: 0.1.2
 Date: 2016-05-04
 Authors@R: c(person("Kevin", "Fujii", email = "kevfujii@gmail.com", role = "aut"),
-  person("Jian", "Jin", email = "jinjian.pku@gmail.com", role = c("aut", "cre")),
+  person("Jian", "Jin", email = "jinjian.pku@gmail.com", role = "aut"), 
+  person("Jessica", "Vandeleest", email = "vandelee@ucdavis.edu", role = "cre"),
   person("Aaron", "Shev", email = "abshev@ucdavis.edu", role = "aut"),
   person("Brianne", "Beisner", role = "aut"),
   person("Brenda", "McCowan", role = c("aut", "cph")),
@@ -27,4 +28,4 @@ Suggests:
     reshape2,
     lattice
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
