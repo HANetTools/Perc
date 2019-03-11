@@ -1,31 +1,22 @@
 ## Resubmission
-This is new submission. 
+This is small patch to fix errors in testing when using r-devel. In this version:
 
-* The previous Perc was archived on CRAN because of an uncorrected failed check. In this version I have:
+* Code to specify RNGversion("3.5.3") was added to all tests using sample() to ensure a match to existing data outputs. 
 
-* Corrected the codes that were responsible for the failed check- Tests for `valueConverter` was updated so that it is consistent with the most recent version of testthat.
+* Version number was increased to "0.1.3".
 
-* Version number was increased to "0.1.2".
-
-* `as.conflictmat` was updated to fix minor issues in raw data with warnings returned to users about the fix, instead of returning erros as in previous versions.
+* New author and maintainer was added.
 
 ## Test environments
-* local OS X install, R 3.2.3
+* local Win 7 install, R 3.5.2
+* local Win 10 install, r-devel
 * win-builder (devel and release)
 
 ## R CMD check results
-There were no ERRORs or WARNINGs.
+There were no ERRORs, WARNINGs, or NOTES.
 
-There were 2 NOTEs when checking package dependencies. 
-* New submission
-
-Package was archived on CRAN
-
-CRAN repository db overrides:
-  X-CRAN-Comment: Archived on 2016-05-02 as check problems were not
-    corrected despite reminders.
-
-* No repository set, so cyclic dependency check skipped
+Checking package dependencies. 
+* I did not test all dependencies, but do not think any of the changes should effect them.
 
 
 ## Reverse dependencies
