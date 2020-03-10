@@ -1,11 +1,15 @@
 ---
 title: "README_updates"
-author: "JJ"
-date: "August 20, 2015"
+author: "JV"
+date: "March 10, 2020"
 output: pdf_document
 ---
 
 **Updates to Perc**
+
+Perc_0.1.4 updated individualDomProbs to change default from stringsAsFactors from TRUE to FALSE to work with new r-devel defaults.
+
+Perc_0.1.3 updated test-Converters to specify R version 3.5.2 for set.seed in testing.
 
 Perc_0.1.2 updated `as.conflictmat`. In `as.conflictmat`, when raw data includes self-loops or incorrect class of data, `as.conflictmat` fixes the data automatically and return a warning which notifies users about the auto-fixes. 
 

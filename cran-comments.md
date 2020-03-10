@@ -1,11 +1,11 @@
 ## Resubmission
 This is small patch to fix errors in testing when using r-devel. In this version:
 
-* Code to specify RNGversion("3.5.3") was added to all tests using sample() to ensure a match to existing data outputs. 
+* Code to add default argument for data.frame() from stringsAsFactors = TRUE to stringsAsFactors = FALSE 
 
-* Version number was increased to "0.1.3".
+* Version number was increased to "0.1.4".
 
-* New author and maintainer was added.
+* Test file individualDomProbOutputs.rds updated to match new default specification.
 
 ## Test environments
 * local Win 7 install, R 3.5.2
