@@ -8,15 +8,14 @@ This is small patch to fix errors in testing when using r-devel. In this version
 * Test file individualDomProbOutputs.rds updated to match new default specification.
 
 ## Test environments
-* local Win 7 install, R 3.5.2
-* local Win 10 install, r-devel
+* local Win 10 install, R 3.5.3, r-devel
 * win-builder (devel and release)
 
 ## R CMD check results
 There were no ERRORs, WARNINGs, or NOTES.
 
 Checking package dependencies. 
-* I did not test all dependencies, but do not think any of the changes should effect them.
+* I did not test all dependencies, but do not think any of the changes should effect them since the change was mainly in the testing procedure.
 
 
 ## Reverse dependencies

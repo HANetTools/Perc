@@ -3,7 +3,7 @@ Type: Package
 Title: Using Percolation and Conductance to Find Information Flow Certainty in a
     Direct Network
 Version: 0.1.4
-Date: 2019-03-11
+Date: 2020-03-10
 Authors@R: c(person("Kevin", "Fujii", email = "kevfujii@gmail.com", role = "aut"),
   person("Jian", "Jin", email = "jinjian.pku@gmail.com", role = "aut"), 
   person("Jessica", "Vandeleest", email = "vandelee@ucdavis.edu", role = c("aut","cre")),
@@ -28,4 +28,4 @@ Suggests:
     reshape2,
     lattice
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
