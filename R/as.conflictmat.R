@@ -137,8 +137,8 @@ as.conflictmat = function(Data, weighted = FALSE, swap.order = FALSE){
     }
     ##Update 4/27/2020: code fails when called from sampleDist function in bt.test because sample matrix is not named
     # don't require sorting of matrix if it is called from sampleDist.
-    called_from = deparse(sys.calls()[[sys.nframe()-2]])
-    if (grepl("sampleDist", called_from, fixed = TRUE)){
+    call_list = sapply(sys.calls(),deparse)
+    if (sum(sapply("sampleDist", grepl, call_list, fixed = TRUE)) > 0){
       mat_sorted = mat
     } else {
       # update 2016.1.18: sorted matrix by colnames

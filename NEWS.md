@@ -1,11 +1,13 @@
 ---
 title: "README_updates"
 author: "JV"
-date: "March 10, 2020"
+date: "April 27, 2020"
 output: pdf_document
 ---
 
 **Updates to Perc**
+
+Perc_0.1.5 updated as.conflictmat function to correct error when running sample code for bt.test.
 
 Perc_0.1.4 updated individualDomProbs to change default from stringsAsFactors from TRUE to FALSE to work with new r-devel defaults.
 
