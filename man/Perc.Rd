@@ -4,6 +4,3 @@
 \name{Perc}
 \alias{Perc}
 \title{Perc.}
-\description{
-Perc.
-}
