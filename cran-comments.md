@@ -1,13 +1,13 @@
 ## Resubmission
-This is small patch to fix errors in when running bt.test sample code. In this version:
+This is small patch to add markdown as a dependency for the package. In this version:
 
-* Code added to as.conflictmat function to correct error in bt.test.
+* rmarkdown was added as a suggested package.
 
-* Version number was increased to "0.1.5".
+* Version number was increased to "0.1.6".
 
 
 ## Test environments
-* local Win 10 install, R 3.5.3, r-devel
+* local Win 10 install, R 4.0.5, r-devel
 * win-builder (devel and release)
 
 ## R CMD check results

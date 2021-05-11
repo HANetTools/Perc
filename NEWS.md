@@ -7,6 +7,8 @@ output: pdf_document
 
 **Updates to Perc**
 
+Perc_0.1.6 added rmarkdown package to the suggests list.
+
 Perc_0.1.5 updated as.conflictmat function to correct error when running sample code for bt.test.
 
 Perc_0.1.4 updated individualDomProbs to change default from stringsAsFactors from TRUE to FALSE to work with new r-devel defaults.
