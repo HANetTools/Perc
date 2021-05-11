@@ -18,6 +18,7 @@ Depends:
 License: GPL (>= 2)
 Copyright: Fushing Lab & McCowan Lab, University of California, Davis
 LazyData: true
+Encoding: UTF-8
 Imports:
     stats,
     grDevices
@@ -29,4 +30,4 @@ Suggests:
     reshape2,
     lattice
 VignetteBuilder: knitr
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

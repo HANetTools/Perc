@@ -11,3 +11,4 @@
 ^NEWS\.md$
 ^figure/$
 ^README-.*\.png$
+^\.travis\.yml$

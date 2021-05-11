@@ -14,7 +14,7 @@ This is small patch to add markdown as a dependency for the package. In this ver
 There were no ERRORs, WARNINGs, or NOTES.
 
 Checking package dependencies. 
-* I did not test all dependencies, but the change was a small modification only applicable to an internal function and should have no impact on dependencies..
+* Dependency for package rmarkdown was updated
 
 
 ## Reverse dependencies

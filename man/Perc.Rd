@@ -4,3 +4,6 @@
 \name{Perc}
 \alias{Perc}
 \title{Perc.}
+\description{
+A package to measure information flow (e.g. dominance) through a network
+}
